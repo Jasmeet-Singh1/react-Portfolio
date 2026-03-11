@@ -95,7 +95,7 @@ const Experience = () => {
       className='flex-center md:mt-40 mt-20 section-padding xl:px-0 relative z-1 bg-black/3 backdrop-blur-[2px] pt-12'
     >
       <div className='w-full h-full md:px-20 px-5'>
-        <TitleHeader title='Academic Experience' sub='💼 Career Overview 💼' />
+        <TitleHeader title='Projects' />
         <div className='mt-14 relative'>
           <div className='relative z-50 xl:space-y-20 space-y-10'>
             {expCards.map((card) => (
@@ -108,11 +108,8 @@ const Experience = () => {
                   onClick={!card.companyLink ? (e) => e.preventDefault() : undefined}
                 >
                   <GlowCard>
-                    <div>
-                      <img src={card.imgPath} alt='exp-img' />
-                    </div>
-
                     <div className='mt-3'>
+                      <span className='text-sm'>Technologies Used: </span>
                       {card.skills?.map((skill, index) => (
                         <div key={index} className='text-white-50 text-sm font-thin inline'>
                           {skill}

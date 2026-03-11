@@ -118,17 +118,31 @@ const AppShowcase = () => {
         <div className='w-full'>
           <div className='showcaselayout'>
             <div ref={rydeRef} className='first-project-wrapper'>
-              <div className='image-wrapper'>
+              <div className='w-full overflow-hidden rounded-xl'>
                 <img src='/images/project1.png' alt='UniChat Platform' />
               </div>
               <div className='text-content'>
-                <h2 className='text-xl'>UniChat Platform - Multi-Role Mentorship Platform with Real-time Chat</h2>
+                <h2 className='text-xl'>
+                  MernEats Platform - Food Ordering System built with the MERN stack (MongoDB, Express, React, and
+                  Node.js){' '}
+                </h2>
+              </div>
+
+              <div className='w-full overflow-hidden rounded-xl mt-10'>
+                <img src='/images/freescribe.png' alt='UniChat Platform' />
+              </div>
+              <div className='text-content'>
+                <h2 className='text-xl'>
+                  FreeScribe is an AI-powered web application that allows users to record audio or upload MP3
+                  files, automatically transcribe the speech into text, and translate the transcription into
+                  multiple languages.
+                </h2>
               </div>
             </div>
 
             <div className='project-list-wrapper overflow-hidden '>
               <div className='project' ref={libraryRef}>
-                <div className='image-wrapper object-cover bg-[#becbe7]'>
+                <div className='w-full  bg-[#becbe7] overflow-hidden rounded-xl flex items-center justify-center'>
                   <img src='/images/project2.png' alt='Social Networking Platform' />
                 </div>
 
@@ -139,10 +153,11 @@ const AppShowcase = () => {
 
               <div className='project xl:mt-4' ref={ycDirectoryRef}>
                 <div className='image-wrapper bg-[#becbe7]'>
-                  <img src='/images/project3.jpg' alt='MernEats Platform' />
+                  <img src='/images/project3.png' alt='MernEats Platform' />
                 </div>
                 <h2 className='text-xl'>
-                  MernEats Platform - Full-Stack Food Ordering System with Stripe Integration
+                  Solved more than 250 problems on LeetCode, strengthening my data structures and algorithms
+                  skills.
                 </h2>
               </div>
             </div>

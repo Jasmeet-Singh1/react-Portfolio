@@ -4,11 +4,11 @@ const navLinks = [
     link: '#work',
   },
   {
-    name: 'Experience',
+    name: 'Projects',
     link: '#experience',
   },
   {
-    name: 'Links',
+    name: 'Social Links',
     link: '#Footer',
   },
 ];
@@ -111,10 +111,29 @@ const techStackImgs = [
 const expCards = [
   {
     imgPath: '/images/exp1.svg',
-    logoPath: '/images/exp1.svg',
+    logoPath: '/images/ai.png',
+    title: '🤖 AI Course Generator',
+    skills: [
+      'JavaScript',
+      'NextJS',
+      'Clerk Authentication',
+      'Gemini APIs',
+      ', Google Cloud',
+      'Drizzle ORM',
+      'PostgreSQL',
+    ],
+    responsibilities: [
+      'Built a full-stack AI-powered course generation platform using Next.js and React that dynamically creates structured learning content using Gemini AI.',
+      'Developed secure authentication and user management using Clerk with protected routes and session handling.',
+      'Built API routes and server-side logic in Next.js to securely handle AI requests and data persistence.',
+      'Integrated YouTube Data API to automatically fetch and embed relevant educational videos into generated courses.',
+    ],
+  },
+  {
+    imgPath: '/images/exp1.svg',
+    logoPath: '/images/chat.png',
     title: '💬 UniChat Platform',
     skills: ['JavaScript', 'NextJS', 'Node.js', 'Express', 'Material UI', 'MongoDB', 'Socket.IO', 'AUTH0'],
-    date: 'April 2025 - November 2025',
     responsibilities: [
       'Built a mentorship platform with multi-role portals (students, mentors, admin) using React, Node.js, and MongoDB.',
       'Collaborated in an AGILE environment, working closely with stakeholders to gather requirements of business.',
@@ -123,11 +142,10 @@ const expCards = [
     ],
   },
   {
-    imgPath: '/images/exp2.svg',
-    logoPath: '/images/exp2.svg',
+    imgPath: '/images/exp1.svg',
+    logoPath: '/images/social.png',
     title: '🌐 Social Networking Platform',
     skills: ['React', 'React Flow', 'Material UI', 'Redux', 'Node.js', 'Express', 'MongoDB', 'JWT'],
-    date: 'December 2024 - February 2025',
     responsibilities: [
       'Developed a full-featured social media platform enabling users to create accounts, edit profile, add experience/education, post content, and interact with other users through likes, comments, and follows, elevating user satisfaction by 20%.',
       'Integrated real-time updates with WebSocket to provide instant notifications and seamless user interactions.',
@@ -138,7 +156,7 @@ const expCards = [
   },
   {
     imgPath: '/images/exp1.svg',
-    logoPath: '/images/exp1.svg',
+    logoPath: '/images/food.png',
     title: '🍔 MernEats Platform',
     skills: [
       'JavaScript',
@@ -152,7 +170,6 @@ const expCards = [
       'JWT',
       'Stripe',
     ],
-    date: 'June 2024 - September 2024',
     responsibilities: [
       'Built a full-stack food ordering system using the full stack enabling restaurant to register and customers to search restaurants, browse menus, filter items by cuisines, place orders, and track the status of their orders in real-time.',
       'Implemented a smooth Stripe payment gateway for processing secure payments, increased operational efficiency by 30%.',
@@ -162,22 +179,22 @@ const expCards = [
   },
   {
     imgPath: '/images/exp1.svg',
-    logoPath: '/images/exp1.svg',
-    title: '📝 No Code Day Organizer',
+    logoPath: '/images/scribe.png',
+    title: '🎤 Transcription/Translation Platform',
     skills: ['JavaScript', 'Next.js', 'TypeScript', 'CSS', 'MongoDB', 'Beautiful DND'],
-    date: 'March 2024 - May 2024',
     responsibilities: [
-      'Developed an interactive to-do list application with drag-and-drop functionality for seamless task management.',
-      'Used local storage for user data, ensuring tasks are saved across sessions without server-side storage.',
-      'Applied clean, modular code practices for maintainability and scalability.',
+      'Built Free Scribe, a web application that records audio or uploads MP3 files and converts speech into accurate text transcripts.',
+      'Implemented speech-to-text processing pipeline to automatically transcribe recorded or uploaded audio files.',
+      'Developed a multilingual translation feature allowing transcripts to be translated into multiple languages.',
+      'Designed an intuitive React-based UI enabling users to record audio directly in the browser or upload files for processing.',
+      'Built backend services in Node.js to handle audio uploads, processing, and transcription workflows.',
     ],
   },
   {
     imgPath: '/images/exp5.svg',
     logoPath: '/images/logo5.svg',
-    title: '🎤 Volunteer Web Developer',
+    title: '🙋🏻‍♂️ Volunteer Web Developer',
     skills: ['JavaScript', 'React', 'Tailwind CSS', 'Node.js', 'Express', 'Firebase', 'JWT'],
-    date: 'June 2023 - December 2023',
     responsibilities: [
       'Led the development of my first real-world production project after academic and personal practice builds.',
       'Designed and built a responsive web application for a construction company to showcase their projects and services.',
